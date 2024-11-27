@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .siteBtn{ @apply btn bg-rose-900 text-white my-2 w-full hover:bg-rose-800
+    }
+    .active{@apply before:absolute before:bg-white before:w-full before:h-[2px] before:start-0 before:-bottom-2
+    }
+}

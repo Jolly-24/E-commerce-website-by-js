@@ -1,0 +1,314 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vogue Vibes</title>
+    <link rel="stylesheet" href="../dist/css/output.css">
+    <link rel="stylesheet" href="../dist/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fugaz+One&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Ultra&family=Unlock&family=Updock&display=swap" rel="stylesheet">
+</head>
+<body class="overflow-hidden">
+<div class="load bg-black absolute left-0 top-0 w-full h-full z-40 flex items-center justify-center">
+  <div
+    class="p-3 animate-spin drop-shadow-2xl bg-gradient-to-bl from-pink-400 via-purple-400 to-indigo-600 md:w-48 md:h-48 h-32 w-32 aspect-square rounded-full"
+  >
+    <div
+      class="rounded-full h-full w-full bg-black dark:bg-zinc-900 background-blur-md"
+    ></div>
+  </div>
+</div>
+  
+  <div class="big max-h-screen">
+<header class="max-w-screen-xl mx-auto ">
+  <div class="container mx-auto w-full">
+    <div class="navbar max-w-screen-xl bg-rose-900 fixed z-30 border-4 rounded-xl text-white px-2 top-0 w-full">
+      <div class="navbar-start">
+       <ul class="gap-5 hidden lg:flex">
+        <li id="home" class="relative"><a href="#" class="active">Home</a></li>
+        <li id="aboutus" class="relative"><a href="#about">About</a></li>
+        <li id="categories" class="relative"><a href="#">Categories</a></li>
+        <li id="getProducts" class="relative"><a href="#">Products</a></li>
+        <li id="contact" class="relative"><a href="#">Contact Us</a></li>
+       </ul>
+        <ul
+          tabindex="0"
+          class="menu menu-sm dropdown-content bg-rose-900 rounded-box z-[1] mt-3 w-52 p-2 lg:hidden text-black">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 text-white"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+          
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li id="home"><a href="#">Home</a></li>
+              <li id="aboutus"><a href="#about">About</a></li>
+              <li id="categories"><a href="#">Categories</a></li>
+              <li id="getProducts"><a href="#">Products</a></li>
+              <li id="contact"><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </ul>
+      </div>
+      <div class="navbar-center">
+        <a class="btn btn-ghost text-4xl font-bold font-[Unlock] tracking-widest leading-8 py-1">Tulos</a>
+      </div>
+      <div class="navbar-end">
+        <button class="btn btn-ghost btn-circle openSide">
+          <i class="fa-solid fa-cart-shopping h-5 w-5 text-xl"></i>
+          
+        </button>
+        <button class="btn btn-ghost btn-circle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+        </button>
+        <button class="btn btn-ghost btn-circle">
+          <div class="indicator">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+            </svg>
+            <span class="badge badge-xs badge-primary indicator-item"></span>
+          </div>
+        </button>
+      </div>
+    </div>
+    <div class="header min-h-screen rounded-2xl bg-no-repeat bg-cover relative flex flex-col items-center justify-center" id="header" style="background-image: url(https://wallpapers.com/images/hd/makeup-brush-powder-art-q4e4bg9wujkivnvk.jpg);">
+      <div class="overlay absolute start-0 top-0 h-full w-full bg-black bg-opacity-60 blur-lg rounded-2xl "></div>
+      <div class="px-6 flex flex-col items-center justify-center h-full text-white z-20">
+        <h1 class="uppercase text-5xl font-bold shadow-xl">Tulos spring collection</h1>
+        <p class="text-lg mt-5 font-medium">Find out our best spring collection. Offering our best quality a Tolus Spring Collection </p>
+        <button class="btn w-52 mt-5">Buy Now</button>
+      </div>
+    </div>
+  </div>
+</header>
+</div>
+
+<section class="mx-auto max-w-screen-xl border-4 border-rose-900 border-b-0 border-t-0 px-2 rounded-xl mt-20" >
+  <div class="container mx-auto mt-20">
+    <div class="ptitle hidden pb-10 mt-10">
+      <h2 class="text-center text-5xl font-bold mt-5">Our Products</h2> 
+      <p class="text-gray-500 text-center relative text-lg mt-3 before:absolute before:w-14 before:h-1 before:top-10 before:start-1/2 before:translate-x-[-50%] before:bg-rose-900">“Because you're worth it”...</p>
+    </div>
+    <div class="products grid grid-cols-12 mt-5 gap-5" id="productsContainer">
+  
+    </div>
+  </div>
+</section>
+
+<aside class=" bg-black right-0 top-0 h-full z-40 fixed " style="right: -400px; width: 400px;" id="sidebar">
+  <i class="fa-solid fa-rectangle-xmark absolute text-white text-2xl cursor-pointer closeSide " style="right:40px; top: 30px; z-index: 99;"></i>
+  <div class="px-3 py-5 relative h-full" id="cartside">
+    <div class="flex flex-col items-center justify-center h-full empty">
+      <img src="imgs/empty.png" alt="">
+   <h6 class="text-white text-center text-xl">Your cart is empty</h6>   
+    </div>
+    <button class="text-white bg-rose-900 hover:bg-rose-800 text-xl w-full absolute bottom-0 left-0 btn " onclick="displayCheckout()" style="bottom: 20px;"><a >Checkout</a></button>
+  </div>
+</aside>
+
+
+<div class="contactus">
+  <section class="max-w-screen-xl mx-auto">
+    <div class="container mx-auto" id="contactus">
+     
+    </div>
+  </section>
+</div>
+
+
+<div class="homePage ">
+
+  <article class="max-w-screen-xl mx-auto border-4 border-rose-900 border-b-0 px-2 rounded-xl border-t-0">
+    <div class="container mx-auto">
+    </div>
+  </article>
+
+<article class="max-w-screen-xl mx-auto border-4 border-rose-900 border-b-0 px-2 rounded-xl border-t-0">
+  <div class="container mx-auto">
+    <div class="title pb-10">
+      <h2 class="text-center text-5xl font-bold ">New Arrivals</h2> 
+      <p class="text-gray-500 text-center relative capitalize text-lg mt-3 before:absolute before:w-14 before:h-1 before:top-10 before:start-1/2 before:translate-x-[-50%] before:bg-rose-900">
+        “our New Arrivals are built to withstand your activities while keeping you looking your best! ”</p>
+    </div>
+    <div class="products grid grid-cols-12 mt-10 gap-5" id="newContainer">
+    
+    </div>
+  </div>
+</article>
+
+<section class="max-w-screen-xl mx-auto py-32" id="about">
+  <div class="container mx-auto px-10 xl:px-0">
+    <div class="grid grid-cols-12 md:gap-10 gap-y-5">
+      <div class="col-span-12 lg:col-span-6">
+        <span class="text-rose-900 font-bold uppercase text-2xl tracking-widest">who we are</span>
+      <h2 class="text-5xl mt-3 font-bold">ABOUT US ...</h2>
+      <div class="w-16 h-1 bg-rose-900 mt-5"></div>  
+      <p class="mt-5 text-md font-medium">…is one of the fastest growing e-Commerce companies in Europe and Hamburg’s first unicorn since 2018. As a fashion and technology corporation, along with our strong team, our ambition is to digitalize the classic shopping stroll by creating an inspiring and personalized shopping experience on the smartphone. This is why we created ABOUT YOU, a shopping destination where people can discover fashion that really fits their personality from a range of more than 3.800 brands. With its consistent focus on personalization, inspiration, and mobile shopping, ABOUT YOU has created sales in excess of €1,90 bn. in the fiscal year 2022/23 and is now one of the largest fashion e-tailers in Germany.</p>
+    </div>
+    <div class="col-span-12 lg:col-span-6  rounded-2xl overflow-hidden flex justify-center items-center ">
+      <div class="relative" id="swip">
+       <img src="imgs/aboutimage.webp" alt="" class="rounded-2xl relative h-96 object-cover w-full shadow-xl ">
+      <div class="absolute bg-rose-900 w-full h-full left-10 top-0" id="over"></div> 
+      </div>
+      
+    </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto border-4 border-rose-900 border-b-0 px-2 rounded-xl border-t-0">
+  <div class="container mx-auto">
+    <div class="grid grid-cols-12 gap-6">
+      <div class="col-span-12 md:col-span-6 overflow-hidden ">
+        <div class="">
+          <img src="imgs/pexels-photo-1926769.webp" alt="" class="w-full h-[600px] object-cover rounded-xl">
+        </div>
+      </div>
+      <div class="col-span-12 md:col-span-6 flex justify-between items-center flex-col pl-10 py-14">
+        <div class="flex justify-between flex-col h-full w-full">
+          <div class="box">
+            <h5 class="uppercase font-bold text-4xl">1,90 bn.</h5>
+            <p class="text-xl ">EUR revenue in fiscal year 2022/23
+            </p>
+          </div>
+          <div class="box">
+            <h5 class="uppercase font-bold text-4xl">29 markets</h5>
+            <p class="text-xl ">in 7 years
+            </p>
+          </div>
+          <div class="box">
+            <h5 class="uppercase font-bold text-4xl">1500</h5>
+            <p class="text-xl ">Eemployees from 77 nationalities
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto mt-20 p-5 py-10 bg-no-repeat bg-cover relative rounded-2xl" style="background-image: url(imgs/photo-1490481651871-ab68de25d43d.jpg);">
+  <div class="overlay absolute start-0 top-0 h-full w-full bg-rose-950 bg-opacity-40 rounded-2xl "></div>
+  <div class="container mx-auto flex items-center justify-center flex-col ">
+    <h3 class="font-bold text-4xl text-white z-10">Sign Up to Our Newsletter</h3>
+    <p class="capitalize mt-3 text-white z-10 text-lg">Get the latest beauty secrets and treats, sign up for our Newsletter and stay informed about all things beauty</p>
+  <div class="input-box z-10 w-full mt-5 flex justify-center items-center gap-4">
+    <input type="text" placeholder="Your Email" class="px-5 py-2 rounded-2xl w-[300px] bg-white bg-opacity-20 border-2 placeholder:text-white border-white">
+    <button class="bg-white text-rose-900 px-6 font-medium py-2 rounded-2xl btn">Submit</button>
+  </div>
+  </div>
+</section>
+
+</div>
+
+<div class="categories">
+  <section class="max-w-screen-xl mx-auto">
+    <div class="container mx-auto" >
+      <div class="ctitle hidden my-5">
+        <h2 class="text-center text-5xl font-bold mt-5">Categories</h2> 
+        <p class="text-gray-500 text-center relative text-lg mt-3 before:absolute before:w-14 before:h-1 before:top-10 before:start-1/2 before:translate-x-[-50%] before:bg-orange-700">
+          “What are you shopping for today”...</p>
+      </div>
+     <div class="grid grid-cols-12 gap-y-10 my-10" id="categoriesContainer">
+        
+      </div> 
+    </div>
+  </section>
+</div>
+
+
+<div class="productPage">
+  <div class="max-w-screen-xl mx-auto">
+    <div class="container mx-auto">
+      
+    </div>
+  </div>
+</div>
+
+<footer class="max-w-screen-xl mx-auto py-10 shadow-lg border-4 border-rose-900 border-b-0 px-2 rounded-xl border-t-0 mt-10 mb-10">
+  <div class="container mx-auto">
+    <div class="grid md:grid-cols-12  gap-y-3 gap-x-4">
+      <div class="col-span-12 md:col-span-4 flex items-center flex-col">
+        <h6 class="text-3xl font-bold font-[Unlock] tracking-widest leading-8 py-1">TULOS</h6>
+        <p class="mt-5 w-3/4 font-medium text-center">Experience the Great Outdoors in Style with Tulos's, Shop now and gear up for adventure i Tulos.</p>
+      </div>
+      <div class="md:col-span-2 flex items-center justify-center flex-col col-span-3 ">
+        <h6 class="font-semibold text-2xl">About</h6>
+        <ul class="mt-4">
+          <li class="mb-2 hover:text-rose-900"><a href="#">Our Story</a></li>
+          <li class="mb-2 hover:text-rose-900"><a href="#">Careers</a></li>
+          <li class="mb-2 hover:text-rose-900"><a href="#">Blog</a></li>
+          <li class="mb-2 hover:text-rose-900"><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="md:col-span-2 flex items-center justify-center flex-col col-span-3">
+        <h6 class="font-semibold text-2xl">Products</h6>
+        <ul class="mt-4">
+          <li class="mb-2 hover:text-rose-900"><a href="#">Personal Accounts</a></li>
+          <li class="mb-2 hover:text-rose-900"><a href="#">Business Account</a></li>
+          <li class="mb-2 hover:text-rose-900"><a href="#">Payment Solutions</a></li>
+          <li class="mb-2 hover:text-rose-900"><a href="#">Integrations</a></li>
+        </ul>
+      </div>
+      <div class="md:col-span-2 flex items-center justify-center flex-col col-span-3">
+        <h6 class="font-semibold text-2xl">Resources</h6>
+        <ul class="mt-4">
+          <li class="mb-2 hover:text-rose-900"><a href="#">Help Center</a></li>
+          <li class="mb-2 hover:text-rose-900"><a href="#">API Documentaion</a></li>
+          <li class="mb-2 hover:text-rose-900"><a href="#">Community</a></li>
+          <li class="mb-2 hover:text-rose-900"><a href="#">Partners</a></li>
+        </ul>
+      </div>
+      <div class="md:col-span-2 flex items-center justify-center flex-col col-span-3 ">
+        <h6 class="font-semibold text-2xl">Support</h6>
+        <ul class="mt-4">
+          <li class="mb-2 hover:text-rose-900"><a href="#">Customer Services</a></li>
+          <li class="mb-2 hover:text-rose-900"><a href="#">FAQ</a></li>
+          <li class="mb-2 hover:text-rose-900"><a href="#">Report Problem</a></li>
+          <li class="mb-2 hover:text-rose-900"><a href="#">Security & Privacy</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</footer>
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
